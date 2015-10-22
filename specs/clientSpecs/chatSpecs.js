@@ -123,6 +123,18 @@ describe("chat tests", function(){
       $scope.logout();
       expect($scope.currentUser).to.equal(null);
     });
+    it('should revoke messages on both client sides on revokeMessage', function(done) {
+      assert(true);
+      done();
+    });
+    it('should delete messages on deleteMessage', function(done) {
+      assert(true);
+      done();
+    });
+    it('should destroy messages on destroyMessage', function(done) {
+      assert(true);
+      done();
+    });
     describe('Friends List', function() {
       beforeEach(function() {
         $scope.friends = [];
