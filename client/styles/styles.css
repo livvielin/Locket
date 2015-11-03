@@ -5,6 +5,14 @@
   margin-bottom: 0 !important;
   border: none;
 }
+.navbar-collapse {
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: #333;
+}
+.navbar-inverse {
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: #333;
+}
 .navbar.navbar-custom .navbar-upper {
   position: absolute;
   right: 0;
@@ -176,13 +184,13 @@ img {
 
 .dropdown-toggle {
   margin-right: 34px;
-  color: #bfd4d9 !important;
+  color: #F6F4F1 !important;
 }
 
 .navbar-brand {
-  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #bfd4d9 !important;
+  font-family: "Black Ops One", "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: bold;*/
+  color: #F6F4F1 !important;
   text-transform: uppercase;
   margin-left: 13px !important;
   font-size: 28px;
